@@ -1,0 +1,37 @@
+.card{
+    height: 13rem;
+    width: 20rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.8rem;
+    margin: 2rem;
+}
+
+.card__title{
+    font-size: 2rem;
+    margin-bottom: 1rem ;
+}
+
+.card__button{
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: coral;
+}
+
+.card__button:hover{
+    background-color: rgb(255, 68, 0);
+}   
+
+.card__date .card__org{
+    font-size: 1rem;
+}
