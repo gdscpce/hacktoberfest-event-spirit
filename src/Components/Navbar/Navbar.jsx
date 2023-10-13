@@ -1,8 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
+  const navigate=useNavigate()
+  const handleLogin=()=>{
+    navigate("/login")
+  }
+  const handleRegister=()=>{
+
+  }
   return (
     <nav className='navbar'>
         <h1 className='navbar__heading'>
@@ -16,8 +23,8 @@ const Navbar = () => {
         </ul>
 
         <div className='navbar__buttons'>
-            <button className='navbar__b'>Login</button>
-            <button className='navbar__b'>Register</button>
+            <button className='navbar__b' onClick={handleLogin}>Login</button>
+            <button className='navbar__b' onClick={handleRegister}>Register</button>
         </div>
 
 
