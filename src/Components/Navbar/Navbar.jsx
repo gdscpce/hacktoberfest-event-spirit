@@ -4,12 +4,7 @@ import './Navbar.css'
 
 const Navbar = () => {
   const navigate=useNavigate()
-  const handleLogin=()=>{
-    navigate("/login")
-  }
-  const handleRegister=()=>{
 
-  }
   return (
     <nav className='navbar'>
         <h1 className='navbar__heading'>
@@ -23,8 +18,8 @@ const Navbar = () => {
         </ul>
 
         <div className='navbar__buttons'>
-            <button className='navbar__b' onClick={handleLogin}>Login</button>
-            <button className='navbar__b' onClick={handleRegister}>Register</button>
+            <button className='navbar__b' onClick={()=>{navigate("/login")}}>Login</button>
+            <button className='navbar__b' onClick={()=>{navigate("/signup")}}>Register</button>
         </div>
 
 
