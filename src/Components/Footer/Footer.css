@@ -1,0 +1,75 @@
+.footer {
+  background-color: coral;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+
+
+.social-links a {
+    color: orange;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .social-links a img {
+    filter: grayscale(100%); 
+    transition: filter 0.3s; 
+  }
+  
+  .social-links a:hover img {
+    filter: none; /* Remove the grayscale filter on hover */
+  }
+  
+ 
+  
+  
+  .social-links a:hover {
+    color: rgb(255, 68, 0); /* Change the color on hover */
+  }
+
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0px 15px;
+}
+
+.footer-menu li {
+  display: block;
+  margin-right: 15px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: white;
+  /* font-weight: bold; */
+  font-size: 14px;
+}
+
+.footer-menu a:hover {
+  color:rgb(24, 7, 0); /* Change the color on hover */
+}
+
+a.footer-menu-head{
+    font-weight: bold;
+}
+
+nav.footer-menu{
+    display:flex;
+}
+
